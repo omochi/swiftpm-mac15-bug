@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "mac15bug",
-    platforms: [.macOS(.v14)],
+    platforms: [.macOS(.v15)],
     products: [
         .executable(name: "app", targets: ["app"]),
     ],
